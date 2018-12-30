@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './css/App.css';
+import Navbar from './components/Navbar';
+
 
 class App extends Component {
 
@@ -20,6 +22,7 @@ componentDidMount(){
   render() {
     return (
       <div>
+        <Navbar />
         <h1>WELCOME TO THE HOME PAGE AKA APP</h1>
         <ul>
           {this.state.products.map(product =>

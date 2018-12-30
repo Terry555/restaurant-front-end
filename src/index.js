@@ -1,16 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+// Components
+import App from './App';
+import About from './components/About';
+import Booking from './components/Booking';
+import HoursDirections from './components/HoursDirections';
+import Menu from './components/Menu';
 
 ReactDOM.render(
 
     <Router>
       <React.Fragment>
         <Route exact path="/" component={App}/>
+        <Route path="/about" component={About}/>
+        <Route path="/booking" component={Booking}/>
+        <Route path="/hoursdirections" component={HoursDirections}/>
+        <Route path="/menu" component={Menu}/>
       </React.Fragment>
     </Router>,
     document.getElementById('root')
