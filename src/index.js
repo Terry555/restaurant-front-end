@@ -10,6 +10,9 @@ import Booking from './components/Booking';
 import HoursDirections from './components/HoursDirections';
 import Menu from './components/Menu';
 
+//css
+import './css/navbar.css';
+
 ReactDOM.render(
 
     <Router>
