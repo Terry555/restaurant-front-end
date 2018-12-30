@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class Booking extends Component {
 
   render(){
-    return();
+    return(
+      <h1>BOOKING PAGE</h1>
+    );
   }
 
 }

@@ -20,9 +20,10 @@ componentDidMount(){
   render() {
     return (
       <div>
+        <h1>WELCOME TO THE HOME PAGE AKA APP</h1>
         <ul>
           {this.state.products.map(product =>
-            <li key={product.id}>{product.name}, {product.kind}, <img src={product.image_url} alt="food"/></li>
+            <li key={product.id}>{product.name}, {product.kind}</li>
         )}
         </ul>
       </div>
