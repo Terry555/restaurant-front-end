@@ -1,13 +1,26 @@
 import React, { Component } from 'react';
 
-class About extends Component {
+function About(props) {
 
-  render(){
     return(
-      <h1>ABOUT PAGE</h1>
-    );
-  }
+      <main className="about">
+        <section>
+          <p className="about-header">ABOUT PAGE FIRST HEADER</p>
+          <p classname="about-paragraph">ABOUT PAGE FIRST PARAGRAPH</p>
+        </section>
 
+        <section>
+          <p className="about-header">ABOUT PAGE SECOND HEADER</p>
+          <p classname="about-paragraph">ABOUT PAGE FIRST PARAGRAPH</p>
+        </section>
+
+        <section>
+          <p className="about-header">ABOUT PAGE THIRD HEADER</p>
+          <p classname="about-paragraph">ABOUT PAGE FIRST PARAGRAPH</p>
+        </section>
+      </main>
+    );
 }
+
 
 export default About;

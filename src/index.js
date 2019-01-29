@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // Components
@@ -12,6 +11,11 @@ import Menu from './components/Menu';
 
 //css
 import './css/navbar.css';
+import './css/footer.css';
+import './css/about.css';
+import './css/topdishes.css';
+
+
 
 ReactDOM.render(
 
@@ -31,4 +35,3 @@ ReactDOM.render(
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
