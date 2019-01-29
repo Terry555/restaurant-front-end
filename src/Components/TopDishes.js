@@ -8,9 +8,9 @@ function TopDishes(props) {
 
     return(
       <main className="topdishes-main">
-        <section><img src={dish1} className="topdishes-image" alt="photo of burger"/></section>
-        <section><img src={dish2} className="topdishes-image" alt="photo of pasta"/></section>
-        <section><img src={dish3} className="topdishes-image" alt="photo of broccoli"/></section>
+        <section className="topdishes-section"><img src={dish1} className="topdishes-image" alt="burger"/></section>
+        <section className="topdishes-section"><img src={dish2} className="topdishes-image" alt="pasta"/></section>
+        <section className="topdishes-section"><img src={dish3} className="topdishes-image" alt="broccoli"/></section>
       </main>
     );
 

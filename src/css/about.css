@@ -1,21 +1,24 @@
 .about {
   display: flex;
-  margin: 15px 0px;
-  padding: 0px;
-  flex-direction: column;
+  /* flex-direction: column; */
   background-color: purple;
 }
 
+.about-section {
+  /* object-fit: contain; */
+  margin: 0px 22px 0px 22px;
+}
+
 .about-header {
-  font-size: 24px;
+  /* font-size: 24px; */
   font-weight: bold;
-  padding-top: 40px;
+  /* padding-top: 40px;
   padding-bottom: 10px;
-  line-height: 1.29;
+  line-height: 1.29; */
 }
 
 .about-paragraph {
-  font-size: 16px;
+  /* font-size: 16px;
   font-weight: 100;
-  line-height: 1.5;
+  line-height: 1.5; */
 }
