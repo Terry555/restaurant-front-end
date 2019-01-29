@@ -6,6 +6,8 @@ import TopDishes from './components/TopDishes';
 import HoursDirections from './components/HoursDirections';
 import Booking from './components/Booking';
 import Footer from './components/Footer';
+import Header from './components/Header';
+
 
 
 
@@ -17,6 +19,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
+        <Header />
         <About />
         <TopDishes />
         <HoursDirections />

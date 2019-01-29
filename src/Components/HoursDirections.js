@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class HoursDirections extends Component {
+function HoursDirections(props) {
 
-  render(){
     return(
-      <h1>HOURSDIRECTIONS PAGE</h1>
-
+      <div className="hoursdirections-main">
+        <h1>HOURSDIRECTIONS PAGE</h1>
+      </div>
     );
-  }
 
 }
 

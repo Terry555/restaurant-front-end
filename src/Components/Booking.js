@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Booking extends Component {
+function Booking(props) {
 
-  render(){
     return(
-      <h1>BOOKING PAGE</h1>
+      <div className="booking-main">
+        <h1>BOOKING PAGE</h1>
+      </div>
     );
-  }
 
 }
 

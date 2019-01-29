@@ -1,0 +1,13 @@
+.topdishes-main {
+  display: flex;
+  margin: 15px 0px;
+  padding: 0px;
+  /* flex-direction: column; */
+  background-color: pink;
+}
+
+.topdishes-image {
+  width: 372px;
+  height: 373px;
+  object-fit: contain;
+}

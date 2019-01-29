@@ -14,6 +14,11 @@ import './css/navbar.css';
 import './css/footer.css';
 import './css/about.css';
 import './css/topdishes.css';
+import './css/hoursdirections.css';
+import './css/booking.css';
+import './css/header.css';
+
+
 
 
 
