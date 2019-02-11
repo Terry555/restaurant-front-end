@@ -1,3 +1,8 @@
 .header {
   background-color: orange;
 }
+
+.header-main {
+  background-color: green;
+  height: 500px;
+}

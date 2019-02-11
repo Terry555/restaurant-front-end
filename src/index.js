@@ -17,6 +17,8 @@ import './css/topdishes.css';
 import './css/hoursdirections.css';
 import './css/booking.css';
 import './css/header.css';
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 
 

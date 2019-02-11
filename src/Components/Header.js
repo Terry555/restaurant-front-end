@@ -5,27 +5,34 @@ class Header extends Component {
 
   render() {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
-      speed: 500,
+      speed: 100,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 100,
+      fade: true,
+      pauseOnHover: false,
+      adaptiveHeight: false,
+      arrows: false
     };
 
     return(
-      <div>
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
+            <h1>1</h1>
           </div>
           <div>
-            <h3>2</h3>
+            <h2>2</h2>
+          </div>
+          <div>
+            <h3>3</h3>
           </div>
         </Slider>
-      </div>
     );
 
-}
+  }
 }
 
 export default Header;
