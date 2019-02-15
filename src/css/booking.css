@@ -1,3 +1,5 @@
 .booking-main {
   background-color: purple;
+  display: flex;
+  justify-content: center
 }
